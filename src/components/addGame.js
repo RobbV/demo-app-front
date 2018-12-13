@@ -56,7 +56,7 @@ class AddGame extends Component {
 							<option value="null">Select a Developer...</option>
 							{this.renderDevelopers()}
 						</select>
-						<button type="submit">Add Game</button>
+						<button id="close" type="submit">Add Game</button>
 				</form>
 				</div>
 			</div>
